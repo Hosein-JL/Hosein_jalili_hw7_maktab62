@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+}
+
+/* Navigation Styles */
+
+nav {
+  background: #fba100;
+}
+
+nav ul {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: #000 1px solid;
+}
+
+nav ul li a {
+  color: #000;
+  display: block;
+  font-size: 1.2rem;
+  padding: 15px 14px;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  width: 250px;
+}
+
+nav ul li ul li a {
+  background: #fba100;
+  padding: 10px 14px;
+}

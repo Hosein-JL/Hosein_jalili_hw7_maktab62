@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.collapse-menu {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.collapse-panel {
+  border: 1px solid rgb(164, 165, 164);
+  border-radius: 4px 4px 0 0;
+  margin: 1.5px;
+  border-bottom: 1px solid green;
+}
+
+#third {
+  border: 1px solid rgb(156, 156, 2);
+  border-bottom: 1px solid green;
+}
+
+.heading {
+  height: 40px;
+  padding: 0 15px;
+  line-height: 45px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.collapse-trigger {
+  color: green;
+  font-size: 1.2rem;
+  width: 100%;
+  display: block;
+}
+
+.collapse-controls {
+  position: absolute;
+  left: 0px;
+}
+
+.open {
+  transform: rotate(270deg);
+}
+
+.collapse-controls i {
+  color: orange;
+}
+
+.collapse-body {
+  padding: 20px;
+  font-size: 1.2rem;
+  display: none;
+  background-color: rgb(219, 218, 218);
+}
